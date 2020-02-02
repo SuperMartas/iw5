@@ -43,7 +43,7 @@ V rámci dat, se kterými se bude pracovat budeme požadovat minimálně násled
 ## Funkcionalita
 Webová aplikace bude obsahovat několik stránek pro zobrazování a zadávání dat. 
 
-V zadání není požadováno perzistentní uložení dat. To znamená, že když se aplikace restartuje, tak může o data přijít. Nicméně bude nutno data ukládat za běhu aplikace, aby bylo možno demonstrovat, že když se například pomocí aplikace přidá nový film, tak se tento film zobrazí v seznamu filmů (a podobně pro ostatní data).
+V zadání **není požadováno** perzistentní uložení dat. To znamená, že když se aplikace restartuje, tak může o data přijít. Nicméně bude nutno data ukládat za běhu aplikace, aby bylo možno demonstrovat, že když se například pomocí aplikace přidá nový film, tak se tento film zobrazí v seznamu filmů (a podobně pro ostatní data).
 
 I když není vysloveně požadováno perzistentní uložení dat, je doporučováno jeho implementace a za implementaci perzistentního uložení dat budou uděleny **bonusové body**. Způsob uložení (SQL databáze, NoSQL databáze, JSON, XML, CSV...) necháváme na vašem výběru. Pokud bude ale aplikace deklarovat, že data perzistentně uchovává, tak toto bude otestováno.
 
